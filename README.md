@@ -36,17 +36,17 @@ Other framework:
 ## Available Methods
 
 **The Cancel button in dialogues**  
-`cancel_side` Returns `'left'` or `'right'`  
+`cancel_side` Returns `String` `'left'` or `'right'`  
 `cancel_left?` Returns `Boolean`  
 `cancel_right?` Returns `Boolean`  
 **The Ok button in dialogues**  
-`ok_side` Returns `'left'` or `'right'`  
+`ok_side` Returns `Sring` `'left'` or `'right'`  
 `ok_left?` Returns `Boolean`  
-`ok_right?` Returns `Boolean` 
-**The close button in the window titlebar**
-`close_side` Returns `'left'` or `'right'`  
+`ok_right?` Returns `Boolean`  
+**The close button in the window titlebar**  
+`close_side` Returns `String` `'left'` or `'right'`  
 `close_left?` Returns `Boolean`  
-`close_right?` Returns `Boolean` 
+`close_right?` Returns `Boolean`  
 
 ## Contributing
 
