@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-Rails:
+Rails (the `sniffux` helper is automatically available):
 
-    <div id="alert" class="cancel-on-#{sniffux.cancel_side}">
+    <div id="alert" class="cancel-<%=sniffux.cancel_side%>">
 
 Other framework:
 

@@ -16,4 +16,4 @@ class Sniffux
   end
 end
 
-ActionController::Base.send :include, Browser::ActionController
+ActionController::Base.send :include, Sniffux::ActionController
