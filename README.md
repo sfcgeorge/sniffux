@@ -1,6 +1,6 @@
 # Sniffux
 
-Use user-agent string to reason about UX expectations. E.g. Should the Cancel button in dialigues be on the left or the right? You may then use this information to serve your users a version of your site that matches their expectations and is consistent with the UX they are used to.
+Use user-agent string to reason about UX expectations. E.g. Should the Cancel button in dialogues be on the left or the right? You may then use this information to serve your users a version of your site that matches their expectations and is consistent with the UX they are used to.
 
 ## Installation
 

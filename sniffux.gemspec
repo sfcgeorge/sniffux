@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Sniffux::VERSION
   gem.authors       = ["Simon George"]
   gem.email         = ["simon@sfcgeorge.co.uk"]
-  gem.description   = %q{Use user-agent string to reason about UX expectations. E.g. Should the Cancel button in dialigues be on the left or the right?}
+  gem.description   = %q{Use user-agent string to reason about UX expectations. E.g. Should the Cancel button in dialogues be on the left or the right?}
   gem.summary       = %q{Reason about UX expectations.}
   gem.homepage      = "http://www.sfcgeorge.co.uk/posts/2013/04/20/enhancing-web-ux-consistency-sniffux"
 
