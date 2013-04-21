@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+I wrote a blog post that explains [how to use Sniffux](http://www.sfcgeorge.co.uk/posts/2013/04/20/enhancing-web-ux-consistency-sniffux).
+
 Rails (the `sniffux` helper is automatically available):
 
     <div id="alert" class="cancel-<%=sniffux.cancel_side%>">
@@ -30,6 +32,21 @@ Other framework:
     else
       'Cancel button is on the anti-left xoxo'
     end
+
+## Available Methods
+
+**The Cancel button in dialogues**  
+`cancel_side` Returns `'left'` or `'right'`  
+`cancel_left?` Returns `Boolean`  
+`cancel_right?` Returns `Boolean`  
+**The Ok button in dialogues**  
+`ok_side` Returns `'left'` or `'right'`  
+`ok_left?` Returns `Boolean`  
+`ok_right?` Returns `Boolean` 
+**The close button in the window titlebar**
+`close_side` Returns `'left'` or `'right'`  
+`close_left?` Returns `Boolean`  
+`close_right?` Returns `Boolean` 
 
 ## Contributing
 
